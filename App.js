@@ -1,12 +1,12 @@
 import React, {Component, PropTypes} from 'react'
 
-const Counter = ({value}) =>
+const App = ({value}) =>
     <div>
         {value}
     </div>
 
-Counter.propTypes = {
-    value: PropTypes.number.isRequired
+App.propTypes = {
+    value: PropTypes.string.isRequired
 }
 
-export default Counter
+export default App
